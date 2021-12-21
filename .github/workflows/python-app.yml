@@ -5,7 +5,7 @@ name: Lotto application
 
 on:
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '* 1 * * *'
 
 jobs:
   build:
